@@ -148,7 +148,6 @@
       <version>1.4.7</version>
     </dependency>
 
-    <!-- jstl for jsp page -->
 
     <dependency>
       <groupId>javax.servlet</groupId>
