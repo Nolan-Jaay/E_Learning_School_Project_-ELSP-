@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+        <bean id="employee" class="com.javawebtutor.spring.Employee">
+                <property name="name" value="Ravi" />
+                <property name="age" value="28" />
+                <property name="address" ref="address" />
+        </bean>
+
+        <bean id="address" class="com.javawebtutor.spring.Address">
+                <property name="doorNo" value="36B" />
+                <property name="street" value="2nd Street" />
+                <property name="area" value="Bharti Nager, OMR Road" />
+        </bean>
+</beans>
